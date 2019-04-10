@@ -198,7 +198,7 @@ $resourceGroup = "myResourceGroup"
 $location = "westeurope"
 $vmName = "myLinuxVM"
 
-# Definer user name and blank password
+# Define user name and blank password
 $securePassword = ConvertTo-SecureString 'azurepassword' -AsPlainText -Force
 $cred = New-Object System.Management.Automation.PSCredential ("azureuser", $securePassword)
 
